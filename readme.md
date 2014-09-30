@@ -15,3 +15,4 @@ At the moment, the first step toward the ultimate goal was gutting all of the "f
 	- [ ] Custom Frame (based on different size inputs)
 	- [ ] Declare wrap-around ability (?)
 - [ ] Add ability to specify paths (beyond velocity and position)
+- [ ] Add ability for multiple sprite images (multi-animated sprites)
