@@ -9,7 +9,7 @@ At the moment, the first step toward the ultimate goal was gutting all of the "f
 #### To Do
 
 - [ ] Gut SimFishy Language
-	- [ ] Actual Code Language
+	- [x] Actual Code Language
 	- [ ] Comments
 - [ ] Add Custom Canvas
 	- [ ] Custom Frame (based on different size inputs)
