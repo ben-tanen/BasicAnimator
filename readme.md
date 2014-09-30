@@ -1,6 +1,6 @@
 ## Basic Animator (in C++)
 
-One of my COMP-11 projects was to simulate fish swimming around a fish tank. One of the main principles of the project was to keep the program as modular and abstract as possible. Because of this, I thought it would be pretty simple to gut the (SimFishy project)[http://www.google.com] and turn it into a VERY modular basic animator in C++. So the goal of this project is to make a simple animator that can take parameters for a canvas and information for misc. sprites.
+One of my COMP-11 projects was to simulate fish swimming around a fish tank. One of the main principles of the project was to keep the program as modular and abstract as possible. Because of this, I thought it would be pretty simple to gut the [SimFishy project](http://www.google.com) and turn it into a VERY modular basic animator in C++. So the goal of this project is to make a simple animator that can take parameters for a canvas and information for misc. sprites.
 
 #### Current Progress
 
