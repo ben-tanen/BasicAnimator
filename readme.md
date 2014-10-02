@@ -9,8 +9,8 @@ After re-working 'SimFishy' project, I've decided to start from scratch. Current
 #### To Do
 
 - [ ] Multi-Sprite animObject
-	- [ ] Create class base (parameters)
-	- [ ] Class basics (constructor, destructor)
+	- [x] Create class base (parameters)
+	- [x] Class basics (constructor)
 	- [ ] Object `readIn()`
 	- [ ] Animate and draw functions
 - [ ] Add Custom Canvas
