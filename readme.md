@@ -1,18 +1,25 @@
-## Basic Animator (in C++)
+## Basic Animator
 
-One of my COMP-11 projects was to simulate fish swimming around a fish tank. One of the main principles of the project was to keep the program as modular and abstract as possible. Because of this, I thought it would be pretty simple to gut the [SimFishy project](http://www.google.com) and turn it into a VERY modular basic animator in C++. So the goal of this project is to make a simple animator that can take parameters for a canvas and information for misc. sprites.
+This is a simple ASCII Sprite animator written in C++. The ultimate goal is that it can read-in multiple sprites (which may have multiple images) and animate them using set velocities or set paths. The project itself is based on the COMP-11 project 'SimFishy' (see the ben-tanen/Tufts repo for more).
 
 #### Current Progress
 
-At the moment, the first step toward the ultimate goal was gutting all of the "fish" and "fishtank" language from the class implementation/interface. At the moment, the project is still built the exact same way but the "fish" are no longer "fish", they're "sprites". More changes to come...
+After re-working 'SimFishy' project, I've decided to start from scratch. Currently working on the basic animObject class...
 
 #### To Do
 
-- [ ] Gut SimFishy Language
-	- [x] Actual Code Language
-	- [ ] Comments
+- [ ] Multi-Sprite animObject
+	- [ ] Create class base (parameters)
+	- [ ] Class basics (constructor, destructor)
+	- [ ] Object `readIn()`
+	- [ ] Animate and draw functions
 - [ ] Add Custom Canvas
 	- [ ] Custom Frame (based on different size inputs)
 	- [ ] Declare wrap-around ability (?)
-- [ ] Add ability to specify paths (beyond velocity and position)
-- [ ] Add ability for multiple sprite images (multi-animated sprites)
+- [ ] animObject Movement
+	- [ ] Specify object movement with path or initial position and velocity
+	- [ ] Path Integration
+		- [ ] TBD...
+	- [ ] Initial Velocity / Position
+		- [ ] TBD...
+- [ ] Multi-Object Support

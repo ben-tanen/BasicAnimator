@@ -30,21 +30,6 @@ class Sprite {
 		   Notes:     If the function is unsuccessful (returns 
 			      false), the fish that was created is still set
 			      to the null/zero values from the constructor */
-		string getName();
-		/* Function:  getName()
-		   Purpose:   This function is for getting the name of a fish
-		   Arguments: None
-		   Returns:   The name of the fish (string)
-		   Effects:   None
-		   Notes:     None */
-		void   setName(string new_name);
-		/* Function:  setName()
-		   Purpose:   This allows users to change the name
-			      of the fish
-		   Arguments: A new name for the fish (string)
-		   Returns:   Nothing
-		   Effects:   Changes the name of the fish
-		   Notes:     None */
 		void   setHSpeed(float new_speed);
 		/* Function:  setHSpeed()
 		   Purpose:   This allows users to change the horizontal
@@ -113,7 +98,6 @@ class Sprite {
         static const int MAX_WID = 60;
 
 		// state properties
-		string name;
 		int    img_hgt, img_wid;
 		float  pos_horz, pos_vert;
 		float  speed_horz, speed_vert;

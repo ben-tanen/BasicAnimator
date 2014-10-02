@@ -15,7 +15,6 @@ Sprite::Sprite()
 	pos_horz = 0.0;
 	speed_vert = 0.0;
 	speed_horz = 0.0;
-	name = "";
 
 	// initialize fish image with all spaces
 	for (int i=0;i<MAX_HGT;i++){
@@ -35,7 +34,7 @@ bool Sprite::readSprite()
 	}
 
 	cin >> img_hgt >> img_wid >> pos_vert >> pos_horz
-	    >> speed_vert >> speed_horz >> name;
+	    >> speed_vert >> speed_horz;
 	getline(cin, blank_line); // cin rest of first line (should be blank)
 	
 	for (int i=0;i<img_hgt;i++){
@@ -56,16 +55,6 @@ bool Sprite::readSprite()
 	    return false;
 	
 	return true;
-}
-
-string Sprite::getName()
-{
-    	return name;
-}
-
-void Sprite::setName(string new_name)
-{
-    	name = new_name;
 }
 
 void Sprite::setHSpeed(float new_speed)

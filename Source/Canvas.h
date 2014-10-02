@@ -26,6 +26,7 @@ class Canvas {
 		   Effects:   Creates a Fish Tank for SimFishy
 		   Notes:     This is the non-null constructor for a new fish 
 			      tank. It creates a fish tank of a specific size */
+
 		void setHeight(int hgt);
 		/* Function:  setHeight()
 		   Purpose:   This allows users to change the height
@@ -138,8 +139,9 @@ class Canvas {
 		static const int  MAX_HGT = 50;
 		static const int  MAX_WID = 200;
 		
-		int height, width;
-		int num_sprites;
+		int  height, width;
+		int  num_sprites;
+
 		Sprite sprite_holder[MAX_SPRITES];
 		char canvas_image[MAX_HGT][MAX_WID];
 		void clear_screen();

@@ -13,7 +13,6 @@ Canvas::Canvas()
 	height = 0;
 	width = 0;
 	num_sprites = 0;
-	
 	clearCanvas();
 }
 
